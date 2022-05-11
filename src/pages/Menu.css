@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    border-bottom: solid black 2px;
+    background-color: #cdd1d4;
+}
+
+nav h1{
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    padding: 10px;
+}
