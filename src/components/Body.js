@@ -8,6 +8,7 @@ function Body() {
       <br />
       <br />
       <br />
+      <br />
       <h1>Welcome to the website</h1>
     </div>
   );
