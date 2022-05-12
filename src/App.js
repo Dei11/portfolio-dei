@@ -23,9 +23,3 @@ function App() {
 }
 
 export default App;
-
-// <div className="App">
-//   <Menu />
-//   <Body />
-//   <Footer />
-// </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Menu.css";
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, NavLink } from "react-router-dom";
 
 function Menu() {
   return (
@@ -10,10 +10,10 @@ function Menu() {
           <h1>AB</h1>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <NavLink to="/contact">Contact</NavLink>
             </li>
           </ul>
         </nav>

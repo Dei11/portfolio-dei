@@ -1,7 +1,7 @@
 nav{
     display: flex;
     border-bottom: solid black 2px;
-    background-color: #cdd1d4;
+    background-color: #303031;
 }
 
 nav h1{
@@ -22,7 +22,25 @@ nav ul{
     justify-content: center;
     margin: 0;
     padding: 0;
+
+    /* centre text */
+    flex: 2 0 auto;
+    order: 2;
 }
+
 nav li{
     padding: 10px;
+    font-size: 20px;
+    user-select: none;
+    color: #848485;
+    cursor: pointer;
+    transition:  0.2s;
+}
+
+nav li a.active{
+    color: #fff;
+}
+
+nav li:hover{
+    color: #ffffff;
 }
