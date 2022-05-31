@@ -3,6 +3,12 @@
     margin: 0;
 }
 
+body{
+    background-image: url("assets/img/background.jpg");
+    background-repeat: no-repeat, repeat;
+    background-color: #cccccc;
+}
+
 .main{
     width: 100%;
     height: 100vh;
@@ -10,7 +16,13 @@
 
 
 video{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
 }

@@ -11,10 +11,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Menu />}>
-          <Route index element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-        </Route>
+        {/* <Route path="/" element={<Menu />}> */}
+        <Route index element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        {/* </Route> */}
       </Routes>
       {/* Footer */}
       {/* <Footer /> */}
