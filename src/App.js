@@ -17,7 +17,7 @@ function App() {
         </Route>
       </Routes>
       {/* Footer */}
-      <Footer />
+      {/* <Footer /> */}
     </BrowserRouter>
   );
 }
