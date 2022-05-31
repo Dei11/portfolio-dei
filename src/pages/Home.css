@@ -3,12 +3,6 @@
     margin: 0;
 }
 
-body{
-    background-image: url("assets/img/background.jpg");
-    background-repeat: no-repeat, repeat;
-    background-color: #cccccc;
-}
-
 .main{
     width: 100%;
     height: 100vh;
@@ -16,6 +10,7 @@ body{
 
 
 video{
+    overflow: hidden;
     width: 100vw;
     height: 100vh;
     object-fit: cover;
@@ -26,3 +21,25 @@ video{
     bottom: 0;
     z-index: -1;
 }
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.4);
+    /* background-color: #000000cc; */
+  }
