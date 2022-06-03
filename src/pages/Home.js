@@ -1,5 +1,5 @@
 import React from "react";
-import Body from "../components/Body";
+
 import videoBg from "../assets/video.mp4";
 import "./Home.css";
 import { Outlet, NavLink } from "react-router-dom";

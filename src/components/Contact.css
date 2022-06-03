@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.socialm ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.socialm li{
+    padding: 30px;
+    padding-top: 10vh;
+}
+
+.socialm a:hover{
+    color: rgb(37,68,57);
+}
+
+@media screen and (max-width: 800px) {
+    .socialm li{
+        padding: 15px;
+        padding-top: 10vh;
+    }
+        
+}
