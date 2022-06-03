@@ -11,9 +11,11 @@ function Home() {
       <div className="overlay"></div>
       <video src={videoBg} autoPlay loop muted />
       <div className="content">
-        <h1 className="text-4xl">Hello, I'm Andrei</h1>
+        <h1 className="text-4xl">Andrei Bogdan</h1>
         <br />
-        <h2 className="text-2xl">
+        <h1 className="text-4xl">Programmer • Web Developer</h1>
+        <br />
+        <h2 className="italic text-2xl">
           <NavLink to="/contact">contact</NavLink>
         </h2>
       </div>

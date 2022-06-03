@@ -39,7 +39,7 @@ function Contact() {
           </li>
         </ul>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
