@@ -1,7 +1,12 @@
 import React from "react";
+import languages from "../assets/Skills/Languages.png";
 
 function Languages() {
-  return <div>Languages</div>;
+  return (
+    <div>
+      <img src={languages} alt="Languages" />
+    </div>
+  );
 }
 
 export default Languages;

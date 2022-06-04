@@ -1,7 +1,12 @@
 import React from "react";
+import tools from "../assets/Skills/Tools.png";
 
 function Tools() {
-  return <div>Tools</div>;
+  return (
+    <div>
+      <img src={tools} alt="Tools" />
+    </div>
+  );
 }
 
 export default Tools;

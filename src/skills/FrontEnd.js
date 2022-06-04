@@ -1,9 +1,10 @@
 import React from "react";
+import frontEnd from "../assets/Skills/Front-End.png";
 
 function FrontEnd() {
   return (
     <div>
-      <h1>Salut</h1>
+      <img src={frontEnd} alt="Front-End" />
     </div>
   );
 }
