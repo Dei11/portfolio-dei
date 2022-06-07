@@ -1,10 +1,9 @@
 import React from "react";
-import languages from "../assets/Skills/Languages.png";
 
-function Languages() {
+function Languages(props) {
   return (
     <div>
-      <img src={languages} alt="Languages" />
+      <img src={props.image} alt="Languages" />
     </div>
   );
 }

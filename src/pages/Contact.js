@@ -13,6 +13,9 @@ import Languages from "../skills/Languages";
 import Tools from "../skills/Tools";
 
 import frontEnd from "../assets/Skills/Front-End.png";
+import backEnd from "../assets/Skills/Back-End.png";
+import languages from "../assets/Skills/Languages.png";
+import tools from "../assets/Skills/Tools.png";
 
 function Contact() {
   return (
@@ -58,30 +61,30 @@ function Contact() {
         </ul>
       </div>
       {/* md: */}
-      <div className="h-100 grid grid-cols-1 md:grid-cols-4 gap-4 content-around items-stretch border-indigo-600 ">
-        <div className="border-2 border-indigo-600 ">
+      <div className="h-100 grid grid-cols-1 md:grid-cols-4 gap-4 content-around items-stretch p-5">
+        <div className="border-2">
           <h2 className="text-center">Front-End</h2>
           <FrontEnd image={frontEnd} />
         </div>
 
-        <div className="border-2 border-indigo-600 ">
+        <div className="border-2">
           <h2 className="text-center">Back-End</h2>
-          <BackEnd />
+          <BackEnd image={backEnd} />
         </div>
 
-        <div className="border-2 border-indigo-600">
+        <div className="border-2">
           <h2 className="text-center">Languages</h2>
 
-          <Languages />
+          <Languages image={languages} />
         </div>
 
-        <div className="border-2 border-indigo-600">
+        <div className="border-2">
           <h2 className="text-center">Tools</h2>
 
-          <Tools />
+          <Tools image={tools} />
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

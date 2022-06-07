@@ -1,10 +1,9 @@
 import React from "react";
-import frontEnd from "../assets/Skills/Front-End.png";
 
-function FrontEnd() {
+function FrontEnd(props) {
   return (
     <div>
-      <img src={frontEnd} alt="Front-End" />
+      <img src={props.image} alt="Front-End" />
     </div>
   );
 }

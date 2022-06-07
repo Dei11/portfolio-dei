@@ -1,15 +1,14 @@
-import React from 'react'
-import './Footer.css'
-
+import React from "react";
+import "./Footer.css";
 
 function Footer() {
   return (
     <div>
-      <footer>
-        <p>© DeiSoft 2022</p>
+      <footer className="select-none">
+        <p>Code by Andrei Bogdan © 2022</p>
       </footer>
     </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

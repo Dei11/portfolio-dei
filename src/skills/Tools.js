@@ -1,10 +1,9 @@
 import React from "react";
-import tools from "../assets/Skills/Tools.png";
 
-function Tools() {
+function Tools(props) {
   return (
     <div>
-      <img src={tools} alt="Tools" />
+      <img src={props.image} alt="Tools" />
     </div>
   );
 }

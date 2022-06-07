@@ -15,7 +15,7 @@ function Home() {
         <br />
         <h1 className="text-4xl">Programmer • Web Developer</h1>
         <br />
-        <h2 className="italic text-2xl">
+        <h2 className="italic text-2xl hover:underline">
           <NavLink to="/contact">contact</NavLink>
         </h2>
       </div>

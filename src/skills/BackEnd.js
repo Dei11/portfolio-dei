@@ -1,10 +1,9 @@
 import React from "react";
-import backEnd from "../assets/Skills/Back-End.png";
 
-function BackEnd() {
+function BackEnd(props) {
   return (
     <div>
-      <img src={backEnd} alt="Back-End" />
+      <img src={props.image} alt="Back-End" />
     </div>
   );
 }
