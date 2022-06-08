@@ -61,30 +61,32 @@ function Contact() {
         </ul>
       </div>
       {/* md: */}
-      <div className="h-100 grid grid-cols-1 md:grid-cols-4 gap-4 content-around items-stretch p-5">
-        <div className="border-2">
-          <h2 className="text-center">Front-End</h2>
-          <FrontEnd image={frontEnd} />
+      <div className="skills">
+        <div className="h-100 grid grid-cols-1 md:grid-cols-4 gap-4 content-around items-stretch p-5">
+          <div className="border-2">
+            <h2 className="text-center">Front-End</h2>
+            <FrontEnd image={frontEnd} />
+          </div>
+
+          <div className="border-2">
+            <h2 className="text-center">Back-End</h2>
+            <BackEnd image={backEnd} />
+          </div>
+
+          <div className="border-2">
+            <h2 className="text-center">Languages</h2>
+
+            <Languages image={languages} />
+          </div>
+
+          <div className="border-2">
+            <h2 className="text-center">Tools</h2>
+
+            <Tools image={tools} />
+          </div>
         </div>
-
-        <div className="border-2">
-          <h2 className="text-center">Back-End</h2>
-          <BackEnd image={backEnd} />
-        </div>
-
-        <div className="border-2">
-          <h2 className="text-center">Languages</h2>
-
-          <Languages image={languages} />
-        </div>
-
-        <div className="border-2">
-          <h2 className="text-center">Tools</h2>
-
-          <Tools image={tools} />
-        </div>
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 }

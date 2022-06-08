@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
 *{
     padding: 0;
     margin: 0;
+}
+
+.skills h2{
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 .socialm ul{
@@ -20,11 +26,9 @@
 .socialm a:hover{
     color: rgb(37,68,57);
 }
-
 @media screen and (max-width: 800px) {
     .socialm li{
         padding: 15px;
         padding-top: 10vh;
     }
-        
 }

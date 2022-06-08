@@ -7,13 +7,12 @@ import { Outlet, NavLink } from "react-router-dom";
 function Home() {
   return (
     <div className="main">
-      {/* <Body /> */}
       <div className="overlay"></div>
       <video src={videoBg} autoPlay loop muted />
       <div className="content">
         <h1 className="text-4xl">Andrei Bogdan</h1>
         <br />
-        <h1 className="text-4xl">Programmer • Web Developer</h1>
+        <h1 className="text-base md:text-4xl ">Programmer • Web Developer</h1>
         <br />
         <h2 className="italic text-2xl hover:underline">
           <NavLink to="/contact">contact</NavLink>
