@@ -1,6 +1,6 @@
 import React from "react";
 import Menu from "./Menu";
-import Footer from "../components/Footer";
+//import Footer from "../components/Footer";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -62,6 +62,7 @@ function Contact() {
       </div>
       {/* md: */}
       <div className="skills">
+        <h3 className="text-center text-3xl">Skills</h3>
         <div className="h-100 grid grid-cols-1 md:grid-cols-4 gap-4 content-around items-stretch p-5">
           <div className="border-2">
             <h2 className="text-center">Front-End</h2>
@@ -85,7 +86,6 @@ function Contact() {
             <Tools image={tools} />
           </div>
         </div>
-        <Footer />
       </div>
     </div>
   );

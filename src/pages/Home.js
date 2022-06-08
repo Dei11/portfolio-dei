@@ -1,14 +1,11 @@
 import React from "react";
 
-import videoBg from "../assets/video.mp4";
 import "./Home.css";
 import { Outlet, NavLink } from "react-router-dom";
 
 function Home() {
   return (
     <div className="main">
-      <div className="overlay"></div>
-      <video src={videoBg} autoPlay loop muted />
       <div className="content">
         <h1 className="text-4xl">Andrei Bogdan</h1>
         <br />
