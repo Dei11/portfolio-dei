@@ -1,2 +1,2 @@
-# Bogdan Andrei portfolio site
+# Bogdan Andrei portfolio
 https://andreibg.web.app/
